@@ -21,6 +21,9 @@ title="Go to Components Demo"/>
 <Button style={styles.buttonStyle}
 onPress={()=>navigation.navigate('List')}
 title="Go to List Demo"/>
+<Button style={styles.buttonStyle}
+onPress={()=>navigation.navigate('Image')}
+title="Go to Detail Demo"/>
   </View>
 };
 const styles = StyleSheet.create({
