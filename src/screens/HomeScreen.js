@@ -24,6 +24,12 @@ title="Go to List Demo"/>
 <Button style={styles.buttonStyle}
 onPress={()=>navigation.navigate('Image')}
 title="Go to Detail Demo"/>
+<Button style={styles.buttonStyle}
+onPress={()=>navigation.navigate('Count')}
+title="Go to Count Demo"/>
+<Button style={styles.buttonStyle}
+onPress={()=>navigation.navigate('Color')}
+title="Go to Color Demo"/>
   </View>
 };
 const styles = StyleSheet.create({
