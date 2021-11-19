@@ -33,6 +33,9 @@ const HomeScreen = ({ navigation }) => {
     <Button style={styles.buttonStyle}
       onPress={() => navigation.navigate('Square')}
       title="Go to Square Demo" />
+          <Button style={styles.buttonStyle}
+      onPress={() => navigation.navigate('Text')}
+      title="Go to Text Demo" />
   </View>
 };
 const styles = StyleSheet.create({
